@@ -1,7 +1,7 @@
 import { useField } from 'formik'
 import React, { ReactElement, useEffect } from 'react'
 import { InputProps } from '@shared/FormInput'
-import Logo from '@images/logo.svg'
+import Logo from '@images/sprakles_logo.svg'
 import RefreshName from './RefreshName'
 import styles from './index.module.css'
 import { generateDtName } from '@oceanprotocol/lib'

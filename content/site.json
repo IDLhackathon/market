@@ -1,9 +1,9 @@
 {
-  "siteTitle": "Ocean Market",
-  "siteTagline": "A marketplace to find, publish and trade datasets in the Ocean Network.",
+  "siteTitle": "Circum data market",
+  "siteTagline": "A marketplace to publish topographic results from the ",
   "siteUrl": "https://market.oceanprotocol.com",
   "siteImage": "/share.png",
-  "copyright": "All Rights Reserved. Powered by ",
+  "copyright": "credits to ",
   "menu": [
     {
       "name": "Publish",
@@ -14,8 +14,8 @@
       "link": "/profile"
     }
   ],
-  "announcement": "[Lock your OCEAN](https://df.oceandao.org/) to get veOCEAN, earn rewards and curate data.",
+  "announcement": "lets make world safe place by sharing insights",
   "warning": {
-    "ctd": "Please note that Compute-to-Data is still in alpha phase."
+    "ctd": ""
   }
 }

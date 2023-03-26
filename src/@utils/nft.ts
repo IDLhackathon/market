@@ -50,8 +50,8 @@ export function generateNftMetadata(): NftMetadata {
   const imageData = `data:image/svg+xml,${encodeSvg(svg.outerHTML)}`
 
   const newNft: NftMetadata = {
-    name: 'Ocean Data NFT',
-    symbol: 'OCEAN-NFT',
+    name: 'Circum data Certificate',
+    symbol: 'CIRCUM-CERTIFICATE',
     description: `This NFT represents an asset in the Ocean Protocol v4 ecosystem.`,
     external_url: 'https://market.oceanprotocol.com',
     background_color: '141414', // dark background
@@ -153,7 +153,7 @@ export async function setNFTMetadataAndTokenURI(
   const encodedMetadata = Buffer.from(
     JSON.stringify({
       ...nftMetadata,
-      description: `${nftMetadata.description}\n\nView on Ocean Market: ${externalUrl}`,
+      description: `${nftMetadata.description}\n\nView on Circum Market: ${externalUrl}`,
       external_url: externalUrl
     })
   ).toString('base64')

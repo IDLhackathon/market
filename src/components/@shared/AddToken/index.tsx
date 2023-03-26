@@ -3,7 +3,7 @@ import classNames from 'classnames/bind'
 import { addTokenToWallet } from '@utils/web3'
 import { useWeb3 } from '@context/Web3'
 import Button from '@shared/atoms/Button'
-import OceanLogo from '@images/logo.svg'
+import OceanLogo from '@images/sparkles-logo.jpeg'
 import styles from './index.module.css'
 
 const cx = classNames.bind(styles)
